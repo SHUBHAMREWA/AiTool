@@ -70,7 +70,7 @@ useCallback(()=>{
       }
       else {
         localStorage.setItem("history", JSON.stringify([question]));
-        setHistory([question]);
+        setHistory([question]) ;
       }
 
     }
